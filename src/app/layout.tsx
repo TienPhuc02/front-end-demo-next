@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { AntdRegistry } from "@ant-design/nextjs-registry";
-import NextAuthWrapper from "@/lib/next.auth.provider";
+import NextAuthWrapper from "@/lib/next.auth.wrapper";
 
 const inter = Inter({ subsets: ["latin"] });
 
